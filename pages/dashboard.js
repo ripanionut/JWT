@@ -27,7 +27,7 @@ const Dashboard = () => {
 	}, []);
 
 	if (!user) {
-		return <p>Loading...</p>;
+		return <p>Loading...{secretKey}</p>;
 	}
 
 	// Transform the timestamps into human-readable format
