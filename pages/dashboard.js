@@ -39,7 +39,7 @@ const Dashboard = () => {
 			<div className="pt-2">
 				{" "}
 				<Link
-					href="/signin"
+					href="/"
 					className="flex w-20 text-center ml-2 rounded-md mx-auto font-bold p-2 bg-green-600"
 				>
 					Login🔻
