@@ -7,8 +7,8 @@ export default (req, res) => {
 	// Authenticate the user and perform validation
 	// Assuming you have a user object and validate the username and password
 
-	if (username === "ionut" && password === "123456") {
-		const user = { id: "112112", username: "Ripan Ionut", localitate:"Sibiu" , };
+	if (username === "vlad" && password === "123456") {
+		const user = { an: "4", username: "Neagovici Vlad", localitate:"Sibiu" , };
 
 		// Generate a JWT token with the user payload
 		const token = generateToken(user);

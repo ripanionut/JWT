@@ -27,7 +27,7 @@ const Signin = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900">
+    <div className="min-h-screen flex items-center  justify-center bg-gray-900">
       <div className="max-w-md w-full p-6 space-y-8 bg-gray-800 rounded-md shadow-lg">
         <h2 className="text-2xl font-bold text-center text-white">Sign In</h2>
         <form className="space-y-4" onSubmit={handleFormSubmit}>
@@ -35,7 +35,7 @@ const Signin = () => {
             <label className="block text-gray-300">Username</label>
             <input
               type="text"
-              className="w-full bg-gray-700 text-white border-gray-300 rounded-md focus:border-green-500 focus:ring-1 focus:ring-green-500"
+              className="w-full  bg-gray-700 text-white border-gray-300 rounded-md focus:border-green-500 focus:ring-1 focus:ring-green-500"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
